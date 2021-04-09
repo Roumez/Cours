@@ -45,3 +45,11 @@ for (let elem of randoms) {
 }
 console.log(`Le nombre de piles est de : ${pile}, le nombre de faces est de : ${face}, le nombre \
 de faces represente: ${(face / (pile + face)) * 100}%`)
+
+// Programme qui calcul la factorielle d’un nombre
+let nb = 5
+let result = 1
+for (let i = 1; i <= nb; ++i) {
+  result = result * i
+}
+console.log(result)
