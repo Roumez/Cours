@@ -29,3 +29,19 @@ const calculMoyenne = () => {
 }
 
 console.log(`La moyenne des notes est de : ${calculMoyenne()} `)
+
+
+// Creation d’un programme qui va permettre de faire 10 fois "pile ou face" et qui comptera le nombre de pile et de faces obtenus
+
+const randoms = [];
+for (let i = 0; i < 10; ++i) {
+  randoms.push(Math.floor(Math.random() * 2))
+}
+let pile = 0
+let face = 0
+for (let elem of randoms) {
+  if (elem === 0) pile++
+  else face++
+}
+console.log(`Le nombre de piles est de : ${pile}, le nombre de faces est de : ${face}, le nombre \
+de faces represente: ${(face / (pile + face)) * 100}%`)
