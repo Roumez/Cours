@@ -2,12 +2,12 @@
 * Permets de réaliser une boucle et de répéter des actions un nombre de fois défini à l’avance.
 * Cette boucle est très utile dans le cadre des tableaux avec la propriété .length
 
-'''
+```
 const notes = [5, 10, 15, 20];
 for (let i = 0; i < notes.length; ++i){
   console.log(`note numéro ${i + 1} : ${notes[i]}`)
 }
-'''
+```
 
 ## Boucle for in
 
