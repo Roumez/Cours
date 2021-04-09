@@ -67,4 +67,4 @@ for (let i = 0; i < names.length; ++i) {
 ```
 * On passe sur l’element du tableau names dans la premiere boucle ensuite nous passons sur chaque elements du tableau de tableau.
 On repete la boucle sur le deuxieme element.
-Voir exemple dans boucle.js
+Voir exemple dans Cours => boucle.js
