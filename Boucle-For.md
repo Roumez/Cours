@@ -32,11 +32,36 @@ for (let propriete in perso){
 
 ## Boucle for of
 * Elle permets de boucler sur des tableaux. 
-* Elle nous permets d’avoir la valeur dans un tableau
+* Elle nous permets d’avoir les valeurs d’un tableau
 
 ```
 const notes = [5, 10, 15, 20];
 for (const note of notes){
   console.log(`Note : ${note}`)
+}
+```
+
+## forEach pour les arrays
+* La méthode .forEach exécute une fonction pour chaque éléments d'un tableau.
+
+```
+[1, 2, 3, 4, 5].forEach((elem) => {
+  console.log(elem)
+})
+```
+
+## Nested loops 
+* Des boucles while, do-while, for peuvent être imbriqués
+```
+let names = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+] // un tableau de tableau
+for (let i = 0; i < names.length; ++i) {
+  console.log(`Array ${i + 1}:`)
+  for (let j = 0; j < names[i].length; ++j) {
+    console.log(`\t${names[i][j]}`)
+  }
 }
 ```
