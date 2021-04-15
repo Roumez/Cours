@@ -1,0 +1,6 @@
+{"alice":{"age":28,"isDev":true},"bob":{"age":33,"isDev":false},"dan":{"age":45,"isDev":true}}lse}}
+
+Si il n’y a pas de await dans une fonction asynchron on recuprere un promise dans une constante
+
+Promise.allSettled : Retourne un objet mais si une valeur est rejected nous pouvons continuer
+Promise.all : Retourne un objet des valeurs = attente de la résolution des valeurs passés en parametre
